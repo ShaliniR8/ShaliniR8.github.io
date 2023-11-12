@@ -11,9 +11,10 @@ This blog is a place where I document my progress, challenges, and insights as I
 - 🛠️ DIY project showcases
 - 🎨 Creative experiments with technology
 
-## Current Project: Cat Mood Detector
+## In Progress: Atm0s Calendar
+https://github.com/ATM0Srepo/SimpleCalendarPlugin
 
-I'm currently working on an app called "Purr-spective," a machine learning-powered tool that deciphers the moods of our feline friends. Check out my [project repository](https://github.com/ShaliniR8/cat-mood-detector) for more details and progress updates!
+## Coming Soon: Cat Mood Detector
 
 ## Connect with Me
 
