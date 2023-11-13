@@ -1,0 +1,27 @@
+# Site settings
+title: Shalini's Blog
+email: shaliniroy1008@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my personal blog where I share my journey in tech, fullstack engineering, machine learning, and more.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ShaliniR8.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+
+# Optional features
+show_excerpts: true # to show post excerpts on the homepage
