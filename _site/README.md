@@ -1,6 +1,6 @@
 # Welcome to my Blog!
 
-Hello there! I'm Shalini, a software engineer and machine learning enthusiast. This blog is where I share my journey through the tech world, from coding adventures to AI explorations.
+Hello! I'm Shalini, a software engineer and machine learning enthusiast. This blog is where I share my journey through the tech world, from coding adventures to AI explorations. Expect this place to look like a 10 year old's playground, because I'm just getting started.
 
 ## About the Blog
 

@@ -1,0 +1,15 @@
+main {
+    padding-top: 30px;
+}
+
+/* navbar*/
+.sidebar .nav {
+    background-color: #bbabab; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sidebar .nav a {
+    color: #ffffff; 
+
+}
