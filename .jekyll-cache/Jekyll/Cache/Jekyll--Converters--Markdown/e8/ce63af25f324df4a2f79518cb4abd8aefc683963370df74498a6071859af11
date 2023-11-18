@@ -1,0 +1,61 @@
+I"N<h4 id="rails-secrets--deployment-keeping-it-secure-but-simple">Rails Secrets &amp; Deployment: Keeping it Secure (But Simple)</h4>
+
+<p>Hey there, Rails enthusiasts! Today, I want to document something I worked on a bit at office – managing secrets in our Rails apps without pulling our hair out. 🚀</p>
+
+<h3 id="keeping-secrets-secret-in-rails">Keeping Secrets Secret in Rails</h3>
+
+<h4 id="environment-variables">Environment Variables</h4>
+
+<p>Where do we keep our secrets, aka, <code class="language-plaintext highlighter-rouge">secret_key_base</code> and OAuth credentials? In environment variables, of course! Here’s the drill:</p>
+
+<h4 id="setting-environment-variables--a-quick-how-to">Setting Environment Variables – A Quick How-To</h4>
+
+<ul>
+  <li><strong>On VPS</strong>: Add them to your <code class="language-plaintext highlighter-rouge">.bash_profile</code> or <code class="language-plaintext highlighter-rouge">.bashrc</code> like so:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export SECRET_KEY_BASE=your_super_secret_key
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Cloud Providers &amp; Containers</strong>: They’ve got their own fancy ways. Follow their docs, peace!</p>
+  </li>
+  <li>
+    <p><strong>Heroku</strong>: Just a quick command away:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku config:set SECRET_KEY_BASE=your_super_secret_key
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="rails-credentials-the-secret-keeper">Rails Credentials: The Secret Keeper</h3>
+
+<p>You can edit Rails credentials using:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails credentials:edit
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EDITOR="mate --wait" bin/rails credentials:edit
+</code></pre></div></div>
+
+<p>Rails might ask you to add the –wait option. Apparently it is important because it makes the command line process wait for the text editor to close the file, ensuring that your changes are saved correctly before the process continues</p>
+
+<h3 id="common-sense-practices">Common Sense Practices</h3>
+
+<ul>
+  <li><strong>Never</strong> hardcode secrets. Like, ever.</li>
+  <li>Keep your circle of trust small – limit who accesses your secrets.</li>
+  <li>Change your secrets regularly. It’s like changing passwords but for your app.</li>
+</ul>
+
+<h2 id="oauth-plugin-not-a-secret-agent">OAuth Plugin: Not a Secret Agent</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">oauth-plugin</code> gem is cool for OAuth stuff but not for <code class="language-plaintext highlighter-rouge">secret_key_base</code>. Remember to keep your OAuth keys in a safe spot too!</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>Okay, I’ll end it here. Like I said, not a master! But little nuggets of revelations here and there can make a difference.</p>
+
+<p>Stay coding, my friends! Goodnight!</p>
+
+<p>Shalini</p>
+:ET

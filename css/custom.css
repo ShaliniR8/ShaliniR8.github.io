@@ -2,6 +2,10 @@ main {
     padding-top: 30px;
 }
 
+h1 {
+    font-family: cursive;
+    font-size: 3rem; 
+}
 /* navbar*/
 .sidebar .nav {
     background-color: #bbabab; 
@@ -12,4 +16,24 @@ main {
 .sidebar .nav a {
     color: #ffffff; 
 
+}
+
+/* Calendar */
+article {
+    padding: 20px;
+}
+.journey-step {
+    background: #cccad1; 
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #f47cbf; 
+}
+.code-snippet {
+    background: #000000; 
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #ffffff; 
+}
+.journey-step h2 {
+    color: #9c89b8; 
 }

@@ -10,36 +10,33 @@ layout: default
     <title>Welcome to My Blog</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <span class="navbar-brand mb-0 h1">My Blog</span>
-    </nav>
-
-    <div class="container-fluid">
+    {% include navbar.html %}
+   
         <div class="row">
             <!-- Sidebar -->
-            {% include navbar.html %}
+            {% include sidebar.html %}
             <!-- Page content -->
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <main role="main" class="ml-sm-auto col-lg-11 px-md-4">
                 <h1>Hello, I'm Shalini!</h1>
                 <p>Welcome to my personal blog where I share my journey in tech.</p>
                 <!-- Posts -->
                 <div class="posts">
                     {% for post in site.posts %}
                         <div class="post">
-                        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                        <p>{{ post.excerpt }}</p>
+                            <div class="date">
+                                <small>{{ post.date | date: "%B %d, %Y" }}</small>
+                            </div>
+                            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         </div>
                     {% endfor %}
                 </div>
             </main>
         </div>
-    </div>
+
     
     <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

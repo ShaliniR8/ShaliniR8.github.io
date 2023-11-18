@@ -1,20 +1,20 @@
-I"�<h2 id="taking-the-first-step-into-unreal-engine-plugin-development">Taking the First Step into Unreal Engine Plugin Development</h2>
+I"Q<h4 id="taking-the-first-step-into-unreal-engine-plugin-development">Taking the First Step into Unreal Engine Plugin Development</h4>
 
-<p>Today, I’m super thrilled to tell you all about my latest tech escapade: packaging my very first Unreal Engine plugin, the <strong>SimpleCalendarPlugin</strong>. 📅💻</p>
+<p>Today, I’m super thrilled to tell you all about my latest tech escapade: packaging my very first Unreal Engine plugin, the <strong>SimpleCalendarPlugin</strong>.</p>
 
-<h3 id="the-genesis-of-simplecalendarplugin">The Genesis of SimpleCalendarPlugin</h3>
+<h4 id="the-genesis-of-simplecalendarplugin">The Genesis of SimpleCalendarPlugin</h4>
 
 <p>The idea began as a grand vision part of the <a href="https://www.thearcadianinitiative.com/">Arcadian Initiative</a>, but as with many initial plans, it underwent a transformation. I decided to focus on crafting a plugin with basic calendar functionality, a decision that taught me the valuable lesson of starting small and simple.</p>
 
-<h3 id="overcoming-challenges">Overcoming Challenges</h3>
+<h4 id="overcoming-challenges">Overcoming Challenges</h4>
 
-<p>The road to this achievement was not without its bumps. I encountered various issues, from debugging complex code segments to addressing unexpected performance bottlenecks. Each problem was a puzzle, demanding patience and creative problem-solving.</p>
+<p>The road to this achievement was not without its bumps. I encountered various issues, from debugging complex code segments to addressing unexpected performance bottlenecks. Each problem was a puzzle, demanding patience and creative problem-solving. I  must also admit, I had a lot of help from geniuses lurkng about in the discord tech groups.</p>
 
-<h3 id="the-joy-of-learning">The Joy of Learning</h3>
+<h4 id="the-joy-of-learning">The Joy of Learning</h4>
 
 <p>This experience has been incredibly rewarding, not just in terms of technical skills, but also in learning how to manage a project’s scope and the importance of testing and iteration. It’s a reminder that sometimes, stripping down an idea to its essentials can lead to a more robust and functional product.</p>
 
-<h3 id="looking-forward">Looking Forward</h3>
+<h4 id="looking-forward">Looking Forward</h4>
 
 <p>The Simple Calendar Plugin isn’t ready to hit the marketplace as of 11/13/2023 yet, but hey, we’re getting there! The journey ahead involves some testing, tweaking, and possibly reintegrating some of the initially planned features.</p>
 
