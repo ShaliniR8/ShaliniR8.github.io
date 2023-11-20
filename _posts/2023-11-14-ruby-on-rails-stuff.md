@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Todays lesson on Rails Secrets"
+title: "Today's lesson on Rails Secrets"
 date: 2023-11-14
 # categories: rails deployment
 ---
